@@ -4,131 +4,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahanzeb Rao - Resume</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            background-color: #f8f8f8;
-            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         header {
             text-align: center;
-            padding: 50px 0;
-            background-color: #333;
-            color: #fff;
-        }
-
-        section {
-            padding: 20px;
-            margin: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        h1, h2 {
-            color: #333;
-        }
-
-        .info {
-            margin-bottom: 30px;
-        }
-
-        .experience, .education {
-            margin-bottom: 40px;
-        }
-
-        .experience h2, .education h2 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 10px;
             margin-bottom: 20px;
         }
 
-        p {
-            margin: 0 0 15px 0;
-        }
-
-        .skills {
-            margin-bottom: 40px;
-        }
-
-        .skills ul {
-            list-style: none;
-            padding: 0;
+        header h1 {
             margin: 0;
+            font-size: 2.5em;
+            color: #333;
         }
 
-        .skills li {
-            display: inline-block;
-            background-color: #333;
-            color: #fff;
-            padding: 8px 15px;
-            margin: 0 10px 10px 0;
-            border-radius: 5px;
+        header p {
+            margin: 5px 0;
+            color: #555;
         }
 
-        footer {
-            text-align: center;
-            padding: 20px 0;
-            background-color: #333;
-            color: #fff;
+        header a {
+            color: #0073b1;
+            text-decoration: none;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        section h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        section p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        section p strong {
+            color: #333;
         }
     </style>
-    <title>Muhammad Jahanzeb - CV</title>
 </head>
 <body>
-
-    <header>
-        <h1>Muhammad Jahanzeb</h1>
-        <p>Muhammad Jahanzeb</p>
-    </header>
-
-    <section class="info">
-        <h2>Contact Information</h2>
-        <p>Email: jahanzebrao5115@gmail.com</p>
-        <p>Phone: 03060927846</p>
-        <p>LinkedIn: <linkedin class="com">
-        <in>
-        <jazzirao></jazzirao></p>
-    </section>
-
-    <section class="experience">
-        <h2>Work Experience</h2>
-        <div>
-            <h3>System Limited - Web Developer</h3>
-            <p>Jan 2022 - Present</p>
-            <p>Developed and maintained web applications using HTML, CSS, and JavaScript.</p>
-        </div>
-        <digital marketing SEO,ads and ranking>
-    </section>
-
-    <section class="education">
-        <h2>Education</h2>
-        <div>
-            <h3>Comsats University Islamabad(vehari campus)- Bachelor's in Computer Science</h3>
-            <p>Graduated in May 2025</p>
-        </div>
-        <!-- Add more education sections as needed -->
-    </section>
-
-    <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>SEO</li>
-            
-            <!-- Add more skills as needed -->
-        </ul>
-    </section>
-
-    <footer>
-        
-    
-
+    <div class="container">
+        <header>
+            <h1>Jahanzeb Rao</h1>
+            <p>Web Developer</p>
+            <p>I'm best in problem solving, also a creative mind</p>
+            <a href="mailto:jahanzebrao5115@gmail.com">jahanzebrao5115@gmail.com</a>
+            <p>+923060927846</p>
+            <p>Daak Khana Khas Chak No 46 WB Tehsil, District Vehari, Vehari, Pakistan</p>
+            <p><a href="https://linkedin.com/in/jahanzeb-rao-5ba15428b" target="_blank">LinkedIn</a> | <a href="https://github.com/jahanzebrao" target="_blank">GitHub</a></p>
+        </header>
+        <section>
+            <h2>Education</h2>
+            <p><strong>Fsc (Pre-Engineering)</strong><br>Cadet College Jhelum<br>2018 - 2020</p>
+            <p><strong>BS (Computer Science)</strong><br>Comsats University Islamabad, Vehari Campus<br>2020 - Present</p>
+        </section>
+        <section>
+            <h2>Work Experience</h2>
+            <p><strong>Freshener</strong><br>AMB Web + App<br>Working on final year project provided by Comsats University Islamabad, Vehari Campus</p>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <p>HTML, CSS, JavaScript, Flutter, Guest Posting, Python (Basic), C++ (Basic), SQL</p>
+        </section>
+        <section>
+            <h2>Personal Projects</h2>
+            <p><strong>AMB Application + Web</strong><br>02/2024 - Present<br>Worked on web front end and app under coding</p>
+        </section>
+        <section>
+            <h2>Languages</h2>
+            <p><strong>English:</strong> Full Professional Proficiency</p>
+            <p><strong>Urdu:</strong> Native or Bilingual Proficiency</p>
+        </section>
+        <section>
+            <h2>Interests</h2>
+            <p>Traveling, Doing something unique, Technology-based activities</p>
+        </section>
+    </div>
 </body>
 </html>
+
